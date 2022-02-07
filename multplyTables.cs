@@ -7,14 +7,14 @@ namespace FinalAsignement
     {
         static void Main()
         {
-            int a = 1;
+            int fvalue = 1;
             Console.WriteLine("Enter the number");
-            int n = Convert.ToInt32(Console.ReadLine());
+            int num = Convert.ToInt32(Console.ReadLine());
 
-            while (a <= 10)
+            while (favlue <= 10)
             {
-                Console.WriteLine(n + "*" + a + " = " + (n * a));
-                a++;
+                Console.WriteLine(num + "*" + fvalue + " = " + (num * fvalue));
+                fvalue++;
             }
         }
 
