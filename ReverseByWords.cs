@@ -6,22 +6,32 @@ using System.Threading.Tasks;
 
 namespace FinalAsignement
 {
-    class Reversebywords
-    {
-        static void Main()
-        {
-            reversebywords();
-        }
-        static void reversebywords()
-        {
-            Console.WriteLine("Enter Your Sentence:");
-            string sentence = Console.ReadLine();
-            string[] words = sentence.Split(' ');
+    class Program
 
-            for (int i = words.Length - 1; i >= 0; i--)
-            {
-                Console.Write(words[i] + " ");
-            }
+    {
+
+        static void Main(string[] args)
+
+        {
+            Console.WriteLine("Eneter the String:");
+            string s=Console.ReadLine();
+
+            string [] a = s.Split(' ');
+
+             Array.Reverse(a);
+
+             Console.ForegroundColor = ConsoleColor.Red;
+
+             Console.WriteLine("Reverse String is:");
+
+             for(int i=0;i<=a.Length-1;i++)
+
+                {
+                Console.Write(a[i]+""+' ');
+
+                }
+
+          }
+
         }
-    }
 }
