@@ -16,34 +16,34 @@ namespace FinalAsignement
             {
                 if (b < c)
                 {
-                    Console.WriteLine($"ascending order:{a},{ b},{ c}");
+                    Console.WriteLine($"{a},{ b},{ c}");
                 }
                 else
                 {
-                    Console.WriteLine($"Ascending order :{a},{c},{b}");
+                    Console.WriteLine($"{a},{c},{b}");
                 }
             }
             else if (b < a && b < c)
             {
                 if (a < c)
                 {
-                    Console.WriteLine($"ascending order:{b},{a},{c}");
+                    Console.WriteLine($"{b},{a},{c}");
 
                 }
                 else
                 {
-                    Console.WriteLine($"ascending order:{b},{c},{a}");
+                    Console.WriteLine($"{b},{c},{a}");
                 }
             }
             else if (c < a && c < b)
             {
                 if (a < b)
                 {
-                    Console.WriteLine($"ascending order:{c},{a},{b}");
+                    Console.WriteLine($"{c},{a},{b}");
                 }
                 else
                 {
-                    Console.WriteLine($"Ascending order:{c},{b},{a}");
+                    Console.WriteLine($"{c},{b},{a}");
                 }
 
 
