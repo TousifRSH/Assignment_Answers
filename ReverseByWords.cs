@@ -18,9 +18,7 @@ namespace FinalAsignement
 
             string [] a = s.Split(' ');
 
-             Array.Reverse(a);
-
-             Console.ForegroundColor = ConsoleColor.Red;
+             Array.Reverse(a)
 
              Console.WriteLine("Reverse String is:");
 
