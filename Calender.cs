@@ -71,6 +71,11 @@ namespace FinalAsignement
 
         static void Main(string[] args)
         {
+            Console.Write("Enter the year");
+            year = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the month: ");
+            month = Convert.ToInt32(Console.ReadLine());
+            date = new DateTime(year, month, 1);
             Draw();
             FillCalendar();
             DrawCalendar();
